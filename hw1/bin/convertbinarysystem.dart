@@ -32,7 +32,33 @@ class ConvertBinarySystem {
 
   void convertFromBinary(int count) {
     String str = count.toString();
-    print(str.length);
 
+    int itemResult=1;
+    int countResult = 0;
+
+
+
+
+    for (int j = 0; j<=str.length-1; j++) {
+
+      for (int i = str.length -j; i > 1; i--) {
+
+        if (str[i-1]=="1"){
+        itemResult = itemResult+itemResult * 2;
+        print(itemResult);} else {itemResult=0;}
+
+      }
+
+      countResult= countResult + itemResult;
+    }
+
+
+ //   countResult.toString()[1]==1;
+    int result =0;
+    for (int i=0; i<countResult.toString().length; i++) {
+
+      result = result+int.parse(countResult.toString()[i]);
+    }
+    print("Ответ: " + result.toString());
 
 }}
