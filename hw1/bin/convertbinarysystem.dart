@@ -53,7 +53,7 @@ class ConvertBinarySystem {
     }
 
 
- //   countResult.toString()[1]==1;
+
     int result =0;
     for (int i=0; i<countResult.toString().length; i++) {
 

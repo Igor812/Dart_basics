@@ -1,5 +1,6 @@
 import 'convertbinarysystem.dart';
 import 'delimeterscalculator.dart';
+import 'stringwork.dart';
 
 void main(List<String> arguments) {
 
@@ -13,5 +14,8 @@ void main(List<String> arguments) {
   ConvertBinarySystem convertBinarySystem = ConvertBinarySystem();
   convertBinarySystem.convertToBinary(56);
   convertBinarySystem.convertFromBinary(101);
+// задание 3
+  StringWork stringWork = StringWork();
+  stringWork.findCount("Пример строки, содержещей 1 цифру и 2");
 
 }
