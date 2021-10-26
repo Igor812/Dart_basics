@@ -2,6 +2,7 @@ import 'convertbinarysystem.dart';
 import 'delimeterscalculator.dart';
 import 'stringcount.dart';
 import 'stringwork.dart';
+import 'transformtocount.dart';
 
 void main(List<String> arguments) {
 
@@ -19,10 +20,11 @@ void main(List<String> arguments) {
 //   StringWork stringWork = StringWork();
 //   stringWork.findCount("Пример строки, содержещей 1 цифру и 2");
 
-//задание 4
-StringCount stringCount = StringCount();
-stringCount.countElement("Подсчет количества повторений слов в строке. Слов в строке.");
+// //задание 4
+// StringCount stringCount = StringCount();
+// stringCount.countElement("Подсчет количества повторений слов в строке. Слов в строке");
 
-
-
+    //задание 5
+  TransformLetters transformLetters = TransformLetters();
+  transformLetters.transformLetters("one two three four five six seven eight nine ten eleven one two three");
 }
