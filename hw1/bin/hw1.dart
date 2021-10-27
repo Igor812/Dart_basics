@@ -1,5 +1,6 @@
 import 'convertbinarysystem.dart';
 import 'delimeterscalculator.dart';
+import 'point.dart';
 import 'stringcount.dart';
 import 'stringwork.dart';
 import 'transformtocount.dart';
@@ -24,7 +25,13 @@ void main(List<String> arguments) {
 // StringCount stringCount = StringCount();
 // stringCount.countElement("Подсчет количества повторений слов в строке. Слов в строке");
 
-    //задание 5
-  TransformLetters transformLetters = TransformLetters();
-  transformLetters.transformLetters("one two three four five six seven eight nine ten eleven one two three");
+  //   //задание 5
+  // TransformLetters transformLetters = TransformLetters();
+  // transformLetters.transformLetters("one two three four five six seven eight nine ten eleven one two three");
+
+  //задание 6
+  Point point = Point();
+  point.entryPoint(12, 12, 12);
+  point.distanceTo(point);
+
 }
