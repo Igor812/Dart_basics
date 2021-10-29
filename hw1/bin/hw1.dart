@@ -1,6 +1,7 @@
 import 'convertbinarysystem.dart';
 import 'delimeterscalculator.dart';
 import 'point.dart';
+import 'sqrt_from_count.dart';
 import 'stringcount.dart';
 import 'stringwork.dart';
 import 'transformtocount.dart';
@@ -29,9 +30,11 @@ void main(List<String> arguments) {
   // TransformLetters transformLetters = TransformLetters();
   // transformLetters.transformLetters("one two three four five six seven eight nine ten eleven one two three");
 
-  //задание 6
-  Point point = Point();
-  point.entryPoint(12, 12, 12);
-  point.distanceTo(point);
+  // //задание 6
+  // Point point = Point();
+  // point.entryPoint(12, 12, 12);
+  // point.distanceTo(point);
 
+  //задание 7
+  print(2.SqrCount(9, 0.000001));
 }
